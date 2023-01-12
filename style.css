@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: tomato;
+  color: cornsilk;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#cron {
+  font-size: 6em;
+}
+
+button {
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  padding: 8px;
+  background-color: salmon;
+  font-size: 2em;
+  color: cornsilk;
+  cursor: pointer;
+}
